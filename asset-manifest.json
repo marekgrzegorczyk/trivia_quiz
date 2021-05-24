@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Coderslab-project/static/css/main.ad8dbe4c.chunk.css",
+    "main.js": "/Coderslab-project/static/js/main.fcf76d30.chunk.js",
+    "main.js.map": "/Coderslab-project/static/js/main.fcf76d30.chunk.js.map",
+    "runtime-main.js": "/Coderslab-project/static/js/runtime-main.a68312da.js",
+    "runtime-main.js.map": "/Coderslab-project/static/js/runtime-main.a68312da.js.map",
+    "static/js/2.940e7b61.chunk.js": "/Coderslab-project/static/js/2.940e7b61.chunk.js",
+    "static/js/2.940e7b61.chunk.js.map": "/Coderslab-project/static/js/2.940e7b61.chunk.js.map",
+    "index.html": "/Coderslab-project/index.html",
+    "static/css/main.ad8dbe4c.chunk.css.map": "/Coderslab-project/static/css/main.ad8dbe4c.chunk.css.map",
+    "static/js/2.940e7b61.chunk.js.LICENSE.txt": "/Coderslab-project/static/js/2.940e7b61.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a68312da.js",
+    "static/js/2.940e7b61.chunk.js",
+    "static/css/main.ad8dbe4c.chunk.css",
+    "static/js/main.fcf76d30.chunk.js"
+  ]
+}
