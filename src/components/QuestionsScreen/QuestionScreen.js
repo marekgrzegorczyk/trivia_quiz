@@ -29,7 +29,7 @@ export const QuestionsScreen = ({id}) => {
                 // increase score
                 setScore(score + 1);
             }
-        },300)
+        },310)
 
     }
     const handleRetryButton = ()=> {
