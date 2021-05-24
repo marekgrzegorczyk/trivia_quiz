@@ -4,7 +4,7 @@ import {Questionaire} from "../Questionaire/Questionaire.js";
 
 
 
-export const QuestionsScreen = ({id}) => {
+export const QuestionsScreen = ({categoryDifficulty,id,questionsQuantity}) => {
     const [questions, setQuestions] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0)
     const [score, setScore] = useState(0)
@@ -12,7 +12,7 @@ export const QuestionsScreen = ({id}) => {
 
 
     useEffect(() => {
-        fetch(`https://opentdb.com/api.php?amount=10&category=${id}&difficulty=easy`)
+        fetch(`https://opentdb.com/api.php?amount=${questionsQuantity}&category=${id}&difficulty=${categoryDifficulty}`)
             .then((result) => result.json())
             .then((data) => {
                 setQuestions(data.results);
@@ -29,7 +29,7 @@ export const QuestionsScreen = ({id}) => {
                 // increase score
                 setScore(score + 1);
             }
-        },310)
+        },300)
 
     }
     const handleRetryButton = ()=> {
@@ -50,7 +50,7 @@ export const QuestionsScreen = ({id}) => {
                     </button>
                 </h1>
             ) : (
-                <Questionaire  currentIndex = {currentIndex}data={questions[currentIndex]}  handleAnswer={handleAnswer}/>
+                <Questionaire  questionsQuantity={questionsQuantity} currentIndex = {currentIndex}data={questions[currentIndex]}  handleAnswer={handleAnswer}/>
             )}
         </div>
     ) : (

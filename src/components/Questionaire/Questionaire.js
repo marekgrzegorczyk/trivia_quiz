@@ -2,7 +2,7 @@ import React from "react";
 import './Questionaire.scss'
 
 
-export const Questionaire = ({showAnswers,handleAnswer, currentIndex, data: {question, correct_answer, incorrect_answers}}) => {
+export const Questionaire = ({showAnswers,handleAnswer,questionsQuantity, currentIndex, data: {question, correct_answer, incorrect_answers}}) => {
 
 
     const shuffledAnswers = [correct_answer, ...incorrect_answers].sort(() => Math.random() - 0.5);
@@ -13,7 +13,7 @@ export const Questionaire = ({showAnswers,handleAnswer, currentIndex, data: {que
 
 
             <div className="question_box">
-                <p>{currentIndex + 1 }/10</p>
+                <p>{currentIndex + 1 }/{questionsQuantity}</p>
                 <h1 className="question_box_description" dangerouslySetInnerHTML={{__html: question}}/>
             </div>
             <div className="answer">

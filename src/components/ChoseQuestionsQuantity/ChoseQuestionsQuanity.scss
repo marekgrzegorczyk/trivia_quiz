@@ -1,0 +1,31 @@
+$width100: 100%;
+
+@mixin mixinflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 3rem;
+  color: white;
+}
+
+.quantity_box {
+  @include mixinflex;
+  height: 50%;
+  width: 50%;
+}
+
+.quantity_button {
+  height: 100%;
+  width: $width100;
+  font-size: 3rem;
+  margin-bottom: 5px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+
+}
