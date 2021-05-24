@@ -12,7 +12,7 @@ export const QuestionsScreen = ({id}) => {
 
 
     useEffect(() => {
-        fetch(`https://opentdb.com/api.php?amount=10&category=${id}`)
+        fetch(`https://opentdb.com/api.php?amount=10&category=${id}&difficulty=easy`)
             .then((result) => result.json())
             .then((data) => {
                 setQuestions(data.results);
@@ -29,7 +29,7 @@ export const QuestionsScreen = ({id}) => {
                 // increase score
                 setScore(score + 1);
             }
-        },500)
+        },300)
 
     }
     const handleRetryButton = ()=> {

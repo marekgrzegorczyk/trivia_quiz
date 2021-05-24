@@ -5,7 +5,7 @@ $width100: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-};
+}
 
 
 .question_box {
@@ -45,10 +45,14 @@ $width100: 100%;
   color: white;
 }
 
-.answer_box:active  {
-  background-color: white;
-  transition: background-color 100ms ;
-}
+//@media only screen and (min-width: 550px) {
+//  .answer_box:hover  {
+//    background-color: white;
+//    color: black;
+//    transition: background-color ;
+//  }
+//}
+
 
 .loading_and_score {
   color: white;
