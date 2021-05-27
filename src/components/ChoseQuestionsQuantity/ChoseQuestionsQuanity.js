@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import './ChoseQuestionsQuanity.scss'
 
-export const ChoseQuestionsQuanity = ({handleQuestionQuantity, questionsQuantity}) => {
+export const ChoseQuestionsQuanity = ({handleQuestionQuantity}) => {
 
 
     return (

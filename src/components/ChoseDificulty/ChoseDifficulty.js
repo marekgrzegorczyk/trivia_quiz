@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import './ChoseDifficulty.scss'
 
-export const ChoseDifficulty = ({categoryDifficulty, setCategoryDifficulty, handleDificultyChose}) => {
+export const ChoseDifficulty = ({handleDificultyChose}) => {
 
     return (
         <div className='container'>
