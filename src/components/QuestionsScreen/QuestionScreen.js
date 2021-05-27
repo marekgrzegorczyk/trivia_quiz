@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import './QuestionScreen.scss'
 import {Questionaire} from "../Questionaire/Questionaire.js";
 
-export const QuestionsScreen = ({resetGame,categoryChosen, setCategoryChosen, categoryDifficulty, id, questionsQuantity}) => {
+export const QuestionsScreen = ({resetGame, categoryDifficulty, id, questionsQuantity}) => {
     const [questions, setQuestions] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0)
     const [score, setScore] = useState(0)
@@ -26,7 +26,7 @@ export const QuestionsScreen = ({resetGame,categoryChosen, setCategoryChosen, ca
                 // increase score
                 setScore(score + 1);
             }
-        }, 300)
+        }, 300);
 
     }
 
