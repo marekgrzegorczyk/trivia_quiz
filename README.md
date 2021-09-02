@@ -1,6 +1,6 @@
 
 LINK:
-https://marekgrzegorczyk.github.io/Coderslab-project/
+https://github.com/marekgrzegorczyk/trivia_quiz
 
 ## Available Scripts
 
