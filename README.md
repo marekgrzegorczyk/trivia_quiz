@@ -1,6 +1,6 @@
 
 LINK:
-https://github.com/marekgrzegorczyk/trivia_quiz
+https://marekgrzegorczyk.github.io/trivia_quiz
 
 ## Available Scripts
 
