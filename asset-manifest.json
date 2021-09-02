@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Coderslab-project/static/css/main.2a008074.chunk.css",
-    "main.js": "/Coderslab-project/static/js/main.33d1e3e8.chunk.js",
-    "main.js.map": "/Coderslab-project/static/js/main.33d1e3e8.chunk.js.map",
-    "runtime-main.js": "/Coderslab-project/static/js/runtime-main.a68312da.js",
-    "runtime-main.js.map": "/Coderslab-project/static/js/runtime-main.a68312da.js.map",
-    "static/js/2.940e7b61.chunk.js": "/Coderslab-project/static/js/2.940e7b61.chunk.js",
-    "static/js/2.940e7b61.chunk.js.map": "/Coderslab-project/static/js/2.940e7b61.chunk.js.map",
-    "index.html": "/Coderslab-project/index.html",
-    "static/css/main.2a008074.chunk.css.map": "/Coderslab-project/static/css/main.2a008074.chunk.css.map",
-    "static/js/2.940e7b61.chunk.js.LICENSE.txt": "/Coderslab-project/static/js/2.940e7b61.chunk.js.LICENSE.txt"
+    "main.css": "/marekgrzegorczyk/trivia_quiz/static/css/main.2a008074.chunk.css",
+    "main.js": "/marekgrzegorczyk/trivia_quiz/static/js/main.0415c0a7.chunk.js",
+    "main.js.map": "/marekgrzegorczyk/trivia_quiz/static/js/main.0415c0a7.chunk.js.map",
+    "runtime-main.js": "/marekgrzegorczyk/trivia_quiz/static/js/runtime-main.97faa454.js",
+    "runtime-main.js.map": "/marekgrzegorczyk/trivia_quiz/static/js/runtime-main.97faa454.js.map",
+    "static/js/2.940e7b61.chunk.js": "/marekgrzegorczyk/trivia_quiz/static/js/2.940e7b61.chunk.js",
+    "static/js/2.940e7b61.chunk.js.map": "/marekgrzegorczyk/trivia_quiz/static/js/2.940e7b61.chunk.js.map",
+    "index.html": "/marekgrzegorczyk/trivia_quiz/index.html",
+    "static/css/main.2a008074.chunk.css.map": "/marekgrzegorczyk/trivia_quiz/static/css/main.2a008074.chunk.css.map",
+    "static/js/2.940e7b61.chunk.js.LICENSE.txt": "/marekgrzegorczyk/trivia_quiz/static/js/2.940e7b61.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a68312da.js",
+    "static/js/runtime-main.97faa454.js",
     "static/js/2.940e7b61.chunk.js",
     "static/css/main.2a008074.chunk.css",
-    "static/js/main.33d1e3e8.chunk.js"
+    "static/js/main.0415c0a7.chunk.js"
   ]
 }
